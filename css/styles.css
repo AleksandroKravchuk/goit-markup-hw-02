@@ -1,4 +1,19 @@
 body {
-   font-family: 'Roboto',
+   font-family:'Roboto',
 sans-serif;
 }
+:root {
+   --main-text-color:#212121;
+   --text-color:#757575;
+   --main-fone-color:#E5E5E5;
+   --header-fone-color:#FFFFFF;
+   --footer-fone-color:#2F303A;
+   --accent-color:#2196F3; 
+
+}
+/* Цвет заголовков текста #212121 */
+/* Цвет  текста #757575 */
+/* Основной цвет фона #E5E5E5 */
+/* Цвет фона шапки #FFFFFF */
+/* Цвет фона подвала  #2F303A */
+/* Активный цвет #2196F3 */
