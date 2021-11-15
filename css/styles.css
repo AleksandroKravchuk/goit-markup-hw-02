@@ -1,6 +1,8 @@
 body {
    font-family:'Roboto',
 sans-serif;
+background-color: var(--main-fone-color);
+color: var(--main-text-color);
 }
 :root {
    --main-text-color:#212121;
@@ -17,3 +19,24 @@ sans-serif;
 /* Цвет фона шапки #FFFFFF */
 /* Цвет фона подвала  #2F303A */
 /* Активный цвет #2196F3 */
+
+/* Шапка */
+.header {
+   background-color: var(--header-fone-color);
+}
+/* Логотип */
+.logo {
+   color: var(--accent-color);
+}
+.menu {
+   color: var(--main-text-color);
+}
+
+/* Подвал */
+.footer {
+   background:var(--footer-fone-color);
+}
+.contakts {
+    color: #FFFFFF;
+}
+
