@@ -11,6 +11,8 @@ color: var(--main-text-color);
    --header-fone-color:#FFFFFF;
    --footer-fone-color:#2F303A;
    --accent-color:#2196F3; 
+   --button-color:#F5F4FA;
+   --button-text-color:#212121;
 
 }
 /* Цвет заголовков текста #212121 */
@@ -19,6 +21,8 @@ color: var(--main-text-color);
 /* Цвет фона шапки #FFFFFF */
 /* Цвет фона подвала  #2F303A */
 /* Активный цвет #2196F3 */
+/* Основной цвет кнопки #F5F4FA;*/
+/* Основной цвет текста в кнопке #212121;*/
 
 /* Шапка */
 .header {
@@ -28,15 +32,73 @@ color: var(--main-text-color);
 .logo {
    color: var(--accent-color);
 }
-.menu {
+.logo:hover,
+.logo:focus {
+   color: black;
+}
+/* Навигация */
+.list {
+   list-style: none;
+}
+.site-nave {
    color: var(--main-text-color);
 }
+.site-nave:hover,
+.site-nave:focus {
+   color: var(--accent-color);
+}
+/* Контакты */
+.contakts-nave {
+   color: var(--text-color);
+}
+.contakts-nave:hover,
+.contakts-nave:focus {
+   color: var(--accent-color);
+}
+
+/* Основной блок */
+/* Герой */
+.hero {
+  width: 1600px;
+  height: 600px;
+  background-color: var(--footer-fone-color);
+}
+.hero-name {
+   color: var(--header-fone-color);
+}
+.advantages-text {
+   color: var(--text-color);
+}
+.specialty {
+   color: var(--text-color);
+}
+/* Кнопки */
+.button {
+   background-color:var(--button-color);
+   color:var(--button-text-color);
+}
+.button-primary {
+   background-color:var(--button-color);
+   color:var(--button-text-color);
+}
+.button-secondary {
+   background-color:var(--accent-color);
+   color:var(--header-fone-color) ;
+}
+
+/* Наши работы */
+.section-text {
+   color: var(--text-color);
+}
+
 
 /* Подвал */
 .footer {
    background:var(--footer-fone-color);
 }
-.contakts {
+.adress {
     color: #FFFFFF;
 }
-
+.contakts-footer {
+   color: rgba(255, 255, 255, 0.6);
+}
