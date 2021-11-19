@@ -25,36 +25,25 @@ body {
 /* Основной цвет текста в кнопке #212121;*/
 
 /* Шапка */
-.header {
+.header-sektion {
    background-color: var(--header-fone-color);
 }
 /* Логотип */
 .logo {
-    font-family: 'Raleway',sans-serif;
+   font-family: 'Raleway',sans-serif;
    font-size  : 26px;
    line-height: 1.2;
    color: var(--accent-color);
    letter-spacing: 0.03em;
    text-decoration: none;
 }
-.logo:hover,
-.logo:focus {
-   color: black;
-}
 .accent {
    color: black;
-}
-.accent:hover,
-.accent:focus {
-   color: var(--accent-color);
 }
 .accent-footer {
    color: white;
 }
-.accent:hover,
-.accent:focus {
-   color: var(--accent-color);
-}
+
 /* Навигация */
 .list {
    list-style: none;
@@ -173,7 +162,7 @@ body {
 }
 
 /* Подвал */
-.footer {
+.footer-sektion {
    background:var(--footer-fone-color);
 }
 .adress {
