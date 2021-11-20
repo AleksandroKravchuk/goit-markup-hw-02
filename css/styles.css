@@ -55,10 +55,36 @@ body {
    text-decoration: none;
 }
 .site-nave:hover,
-.site-nave:focus,
- {
+.site-nave:focus {
    color: var(--accent-color);
 }
+.site-nave-studio {
+   color         : var(--main-text-color);
+font-weight   : 500;
+font-size     : 14px;
+line-height   : 1.2;
+letter-spacing: 0.02em;
+text-decoration: none;
+} 
+.site-nave-studio:hover,
+.site-nave-studio:focus,
+.site-nave-studio:visited {
+   color: var(--accent-color);
+}
+.site-nave-portfolio {
+   color         : var(--main-text-color);
+font-weight   : 500;
+font-size     : 14px;
+line-height   : 1.2;
+letter-spacing: 0.02em;
+text-decoration: none;
+}
+.site-nave-portfolio:hover,
+.site-nave-portfolio:focus,
+.site-nave-portfolio:visited {
+   color: var(--accent-color);
+}
+
 
 
 
@@ -72,8 +98,7 @@ body {
    text-decoration: none;
 }
 .contakts-nave:hover,
-.contakts-nave:focus
- {
+.contakts-nave:focus {
    color: var(--accent-color);
 }
 
