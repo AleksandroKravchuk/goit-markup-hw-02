@@ -57,9 +57,12 @@ body {
    text-decoration: none;
 }
 .site-nave:hover,
-.site-nave:focus {
+.site-nave:focus,
+.site-nave:active {
    color: var(--accent-color);
 }
+
+
 /* Контакты */
 .contakts-nave {
    color: var(--text-color);
