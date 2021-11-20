@@ -1,13 +1,11 @@
 body {
    font-family: 'Roboto',sans-serif;
    letter-spacing: 0.03em;
-   background-color: var(--main-fone-color);
    color: var(--main-text-color);
 }
 :root {
    --main-text-color:#212121;
    --text-color:#757575;
-   --main-fone-color:#E5E5E5;
    --header-fone-color:#FFFFFF;
    --footer-fone-color:#2F303A;
    --accent-color:#2196F3; 
@@ -58,9 +56,10 @@ body {
 }
 .site-nave:hover,
 .site-nave:focus,
-.site-nave:active {
+ {
    color: var(--accent-color);
 }
+
 
 
 /* Контакты */
@@ -73,15 +72,14 @@ body {
    text-decoration: none;
 }
 .contakts-nave:hover,
-.contakts-nave:focus {
+.contakts-nave:focus
+ {
    color: var(--accent-color);
 }
 
 /* Основной блок */
 /* Герой */
 .hero {
-  width: 1600px;
-  height: 600px;
   background-color: var(--footer-fone-color);
 }
 .hero-name {
@@ -91,6 +89,7 @@ body {
    line-height: 1.4;
    text-align: center;
    letter-spacing: 0.06em;
+   text-transform: uppercase;
 }
 .section-title {
    font-weight: bold;
@@ -102,6 +101,7 @@ body {
    font-weight   : bold;
    font-size     : 14px;
    line-height   : 1.1;
+   text-transform: uppercase;
 }
 .advantages-text {
    color: var(--text-color);
@@ -135,6 +135,7 @@ body {
 .button-primary {
    background-color:var(--button-color);
    color:var(--button-text-color);
+   font-family: inherit;
    cursor: pointer;
    font-weight: 500;
    font-size  : 16px;
@@ -149,14 +150,13 @@ body {
 .button-main {
    background-color:var(--accent-color);
    color:var(--header-fone-color) ;
+   font-family: inherit;
    cursor: pointer;
    font-weight: bold;
    font-size  : 16px;
    line-height: 1.9;
-   position: absolute;
-   width   : 200px;
-   height  : 50px;
    letter-spacing: 0.06em;
+   padding: 5px 10px 5px 10px;
 }
 .button-main:hover,
 .button-main:focus {
@@ -169,7 +169,7 @@ body {
    background:var(--footer-fone-color);
 }
 .adress {
-    color: #FFFFFF;
+    color:var(--header-fone-color);
     font-style: normal;
     font-size  : 14px;
     line-height: 1.7;
