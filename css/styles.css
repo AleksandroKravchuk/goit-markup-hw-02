@@ -68,7 +68,7 @@ text-decoration: none;
 } 
 .site-nave-studio:hover,
 .site-nave-studio:focus,
-.site-nave-studio:visited {
+.site-nave-studio:active {
    color: var(--accent-color);
 }
 .site-nave-portfolio {
@@ -81,7 +81,7 @@ text-decoration: none;
 }
 .site-nave-portfolio:hover,
 .site-nave-portfolio:focus,
-.site-nave-portfolio:visited {
+.site-nave-portfolio:active {
    color: var(--accent-color);
 }
 
